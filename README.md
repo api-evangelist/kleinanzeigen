@@ -64,5 +64,123 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Kleinanzeigen is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://kleinanzeigen.de/
+Kleinanzeigen is a German online classifieds platform that allows users to post free advertisements for a wide range of items and services, from furniture and electronics to jobs and real estate. Formerly known as eBay Kleinanzeigen, it connects local buyers and sellers, offering a simple, searchable marketplace without fees. The service emphasizes community-driven listings and supports categories such as vehicles, pets, and services, aiming to facilitate convenient, local transactions across Germany.
+
+**Areas:** classifieds · marketplace · Germany · free-ads · consumer
+
+## Kleinanzeigen on APIs.io
+
+Everything profiled for Kleinanzeigen is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/kleinanzeigen/](https://apis.io/providers/kleinanzeigen/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Kleinanzeigen Professional Sellers API](https://apis.io/apis/kleinanzeigen/kleinanzeigen-professional-sellers-api/) — API for managing listings, publications, media, and imprints on Kleinanzeigen. Provides operations to create, update, delete, and retrieve listings and…
+- [Kleinanzeigen API](https://apis.io/apis/kleinanzeigen/kleinanzeigen-api/) — Kleinanzeigen API as documented publicly: 39 operations. Contract generated from the documentation by API Evangelist (2026-10-28); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetApiGoodsV1ListingsResponse](https://apis.io/schemas/kleinanzeigen/kleinanzeigen-get-api-goods-v1-listings-response/)
+- [GetApiGoodsV1Listings123E4567E89B12D3A456426614174000Respons](https://apis.io/schemas/kleinanzeigen/kleinanzeigen-get-api-goods-v1-listings123-e4567-e89-b12-d3-a456426614174000-respons/)
+- [GetV1ListingsResponse](https://apis.io/schemas/kleinanzeigen/kleinanzeigen-get-v1-listings-response/)
+- [GetV1ListingsUuidPublicationsResponse](https://apis.io/schemas/kleinanzeigen/kleinanzeigen-get-v1-listings-uuid-publications-response/)
+- [GetV1ListingsUuidResponse](https://apis.io/schemas/kleinanzeigen/kleinanzeigen-get-v1-listings-uuid-response/)
+- [PostV1ListingsRequest](https://apis.io/schemas/kleinanzeigen/kleinanzeigen-post-v1-listings-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Kleinanzeigen Context](https://apis.io/jsonld/kleinanzeigen/kleinanzeigen-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Kleinanzeigen API Rules](https://apis.io/rules/kleinanzeigen/kleinanzeigen-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Kleinanzeigen Authentication](https://apis.io/security/kleinanzeigen/kleinanzeigen-authentication/)
+- [Kleinanzeigen Domain Security](https://apis.io/security/kleinanzeigen/kleinanzeigen-domain-security/)
+- [Kleinanzeigen Vulnerability Disclosure](https://apis.io/security/kleinanzeigen/kleinanzeigen-vulnerability-disclosure/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Kleinanzeigen Rate Limits](https://apis.io/rate-limits/kleinanzeigen/kleinanzeigen-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://kleinanzeigen.de/)
+- [Documentation](https://developer.kleinanzeigen.de/)
+- [Support](https://hilfe.kleinanzeigen.de/hc/de)
+- [Security](https://adevinta.com/security-vulnerability/)
+- [Terms of service](https://themen.kleinanzeigen.de/impressum/)
+- [Privacy policy](https://themen.kleinanzeigen.de/datenschutzerklaerung/)
+- [GitHub](https://github.com/kleinanzeigen)
+
+## API Evangelist rating
+
+**Kin Score 40.4** — developing · rubric 0.25.0 · scored 2026-10-28
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 21.1 |
+
+**Agent readiness 24.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/kleinanzeigen/](https://apis.io/providers/kleinanzeigen/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Kleinanzeigen: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/kleinanzeigen/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
